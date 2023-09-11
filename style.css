@@ -83,4 +83,22 @@ body{
     width: 520px;
 }
 
+/* funny games section */
+.funny_videos_upperpart{
+    width: 665px;
+    text-align: center;
+    margin: auto;
+
+}
+.funny_videos_upperpart h2{
+    font-size: 38px;
+}
+.image_section{
+    display: flex;
+    gap: 24px;
+}
+.image_box{
+    width: 342px;
+ 
+}
 
