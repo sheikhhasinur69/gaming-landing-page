@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Common styles */
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.btn-purple, .btn-sky-blue{
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: #F948B2;
+}
+.btn-sky-blue{
+    background-color: #4EC5F7;
+}
+.title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #0B0223;
+}
+
+.para{
+    font-size: 18px;
+    color: #534C64;
+    margin: 24px 0;
+}
+.purple{
+    color: #F948B2;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Banner Section */
+
+.banner-section{
+    display: flex;
+    height: 100vh;
+    gap: 364px;
+
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-logo{
+    font-size: 95px;
+    font-weight: bolder;
+}
+.banner-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GAMER SECTION */
+.gamer-section{
+    display: flex;
+    gap: 52px;
+}
+
+.gamer-section_right{
+    width: 520px;
+}
+
+
