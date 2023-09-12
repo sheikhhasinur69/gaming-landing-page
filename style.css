@@ -126,6 +126,40 @@ body{
     left:-95px;
 }
 
+/* gamebox section */
+.game_section{
+    background-color: #ff42a417;
+}
+.game_box{
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+   
+    
+   
+}
+.game_box_first_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+.game_box_second_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    margin-top: 28px;
+}
+.game_box_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: white;
+    border-radius: 25px;
+}
+
 /* footer */
 
 .footer{
