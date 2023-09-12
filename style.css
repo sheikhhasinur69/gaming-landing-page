@@ -126,3 +126,63 @@ body{
     left:-95px;
 }
 
+/* footer */
+
+.footer{
+    background-color: #0B0223;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 253px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+  
+   
+}
+.link{
+   display: flex;
+   gap: 60px;
+}
+
+.terms{
+    display: flex;
+    gap: 60px;
+}
+
+.footer p{
+    text-align: center;
+}
+
+.footer_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 56px;
+}
+
+.footer_title{
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+
+
+[class^="fa-brands fa"]{
+    color: white;
+    font-size: 40px;
+    margin-top: 56px;
+    margin-bottom: 64px;
+}
+
+.social_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
